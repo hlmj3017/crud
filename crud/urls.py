@@ -29,5 +29,6 @@ urlpatterns = [
     path('posts/new/', views.new), # 경로, 함수 넣은 것
     path('posts/create/', views.create),
 
-    
+    # Delete
+    path('posts/<int:id>/delete/', views.delete),
 ]
